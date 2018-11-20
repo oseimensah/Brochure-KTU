@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="check one"
+            android:id="@+id/check_one"
+            android:icon="@drawable/inbox">
+        </item>
+        <item
+            android:title="check two"
+            android:id="@+id/check_two"
+            android:icon="@drawable/star">
+        </item>
+        <item
+            android:title="check three"
+            android:id="@+id/check_three"
+            android:icon="@drawable/mail">
+        </item>
+        <item
+            android:title="Cjeck Four"
+            android:id="@+id/check_four"
+            android:icon="@drawable/draft">
+        </item>
+    </group>
+
+    <item android:title="Advanced Group">
+        <menu>
+            <item
+                android:title="App Message"
+                android:id="@+id/message_app"
+                android:icon="@drawable/email"/>
+            <item
+                android:title="App Debate"
+                android:id="@+id/debate_app"
+                android:icon="@drawable/delete"
+               />
+            <item
+                android:title="App Update"
+                android:id="@+id/update_app"
+                android:icon="@drawable/spam"
+                />
+            <item
+                android:title="App Relation"
+                android:id="@+id/relation_app"
+                android:icon="@drawable/user"
+                />
+        </menu>
+    </item>
+
+</menu>

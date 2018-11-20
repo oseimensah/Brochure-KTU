@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Brochure KTU</string>
+    <string name="app_short">KTU B</string>
+    <string name="next">Next</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="ktu_name">Kumasi Technical University</string>
+    <string name="app_name_full">Kumasi Technical University</string>
+</resources>
